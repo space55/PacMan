@@ -1,18 +1,13 @@
-﻿Build started 7/11/2014 11:06:19 AM.
-     1>Project "C:\Users\SummerTech\Documents\Visual Studio 2013\Projects\AStarPacManV2GFX\AStarPacManV2GFX.vcxproj" on node 2 (Build target(s)).
+﻿Build started 1/16/2015 6:17:48 PM.
+     1>Project "C:\Users\Eamonn Nugnt\Documents\GitHub\PacMan\AStarPacManV2GFX.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         S:\Programs(x86)\VS2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\Desktop\EamonnC++\AStarPacManV2\AStar.cpp main.cpp
+         AStar.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\Desktop\EamonnC++\AStarPacManV2\AStar.cpp': No such file or directory
          main.cpp
-     1>main.cpp(143): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
-     1>main.cpp(644): warning C4018: '<' : signed/unsigned mismatch
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\SummerTech\Documents\Visual Studio 2013\Projects\AStarPacManV2GFX\Release\AStarPacManV2GFX.exe" /NOLOGO SDL2.lib SDL2main.lib SDL2_image.lib SDL2_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\SummerTech\Documents\Visual Studio 2013\Projects\AStarPacManV2GFX\Release\AStarPacManV2GFX.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\SummerTech\Documents\Visual Studio 2013\Projects\AStarPacManV2GFX\Release\AStarPacManV2GFX.lib" /MACHINE:X86 /SAFESEH Release\AStar.obj
-         Release\main.obj
-         Generating code
-         Finished generating code
-         AStarPacManV2GFX.vcxproj -> C:\Users\SummerTech\Documents\Visual Studio 2013\Projects\AStarPacManV2GFX\Release\AStarPacManV2GFX.exe
-     1>Done Building Project "C:\Users\SummerTech\Documents\Visual Studio 2013\Projects\AStarPacManV2GFX\AStarPacManV2GFX.vcxproj" (Build target(s)).
+     1>main.cpp(1): fatal error C1083: Cannot open include file: 'SDL2\SDL.h': No such file or directory
+     1>Done Building Project "C:\Users\Eamonn Nugnt\Documents\GitHub\PacMan\AStarPacManV2GFX.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:04.53
+Time Elapsed 00:00:03.06
